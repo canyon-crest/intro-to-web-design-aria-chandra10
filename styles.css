@@ -1,1 +1,69 @@
+body{
+    background-color: rgb(222, 251, 255);
+    color:darkblue;
+    font-family:sans-serif;
+}
 
+#container{
+    width: 1000px;
+    margin: 0 auto;
+    background-color:powderblue;
+    padding: 40px;
+    border: black 2px;
+}
+h1{
+    background-color: darkblue;
+    color:whitesmoke;
+    border:aliceblue;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom:50px;
+    width: 35%;
+    text-align: center;
+    margin: 0 auto;
+    font-size:2.4em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    text-align:center;
+    font-size:1.2em;
+    font-style:italic;
+}
+
+p{
+    line-height: 2.4em;
+}
+
+img{
+    float:left;
+    width:300px;
+    border:white solid 3px;
+    border-radius:15px;
+    margin-right:20px;
+}
+
+a:link{
+    color: rgb(179, 0, 255);
+}
+
+a:visited{
+    color:rgb(255, 150, 150)
+}
+
+
+a:hover{
+    color:rgb(188, 255, 255);
+}
+
+#pic2{
+    float:right;
+    margin-left:8px;
+}
+
+/* CLASS RULE */
+.highlight{
+    font-weight:bold;
+    background-color:rgb(171, 255, 210);
+    font-style:italic;
+}
